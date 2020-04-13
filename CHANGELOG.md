@@ -5,29 +5,29 @@ All noteworthy changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) (as of Feb 2018)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/pseudomuto/protoc-gen-doc/compare/v1.3.1...master)
+## [Unreleased](https://github.com/bambocher/protoc-gen-doc/compare/v1.3.1...master)
 
 ### Changed
 
 * Stripped unnecessary whitespace from markdown templates
 
-## [v1.3.1](https://github.com/pseudomuto/protoc-gen-doc/compare/v1.3.0...v1.3.1)
+## [v1.3.1](https://github.com/bambocher/protoc-gen-doc/compare/v1.3.0...v1.3.1)
 
 ### Changed
 
 * Switched from dep to go modules
 
-## [v1.3.0](https://github.com/pseudomuto/protoc-gen-doc/compare/v1.2.0...v1.3.0) - April 15, 2019
+## [v1.3.0](https://github.com/bambocher/protoc-gen-doc/compare/v1.2.0...v1.3.0) - April 15, 2019
 
 ### Added
 
-* Support for options and extended options in files, services, methods, enums, enum values, messages and fields [#376](https://github.com/pseudomuto/protoc-gen-doc/pull/376)
+* Support for options and extended options in files, services, methods, enums, enum values, messages and fields [#376](https://github.com/bambocher/protoc-gen-doc/pull/376)
 
 ### Changed
 
 ### Fixed
 
-## [v1.2.0](https://github.com/pseudomuto/protoc-gen-doc/compare/v1.1.0...v1.2.0) - March 13, 2019
+## [v1.2.0](https://github.com/bambocher/protoc-gen-doc/compare/v1.1.0...v1.2.0) - March 13, 2019
 
 ### Added
 
@@ -46,7 +46,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Markdown template was incorrectly links response types to request types
 * Markdown template anchor tags were self-closing (invalid).
 
-## [v1.1.0](https://github.com/pseudomuto/protoc-gen-doc/compare/v1.0.0...v1.1.0) - March 13, 2018
+## [v1.1.0](https://github.com/bambocher/protoc-gen-doc/compare/v1.0.0...v1.1.0) - March 13, 2018
 
 ### Added
 

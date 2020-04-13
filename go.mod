@@ -1,4 +1,4 @@
-module github.com/pseudomuto/protoc-gen-doc
+module github.com/bambocher/protoc-gen-doc
 
 require (
 	github.com/Masterminds/semver v1.4.2 // indirect
