@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	html_template "html/template"
+	"strings"
 	text_template "text/template"
 
 	"github.com/Masterminds/sprig"
@@ -75,9 +76,15 @@ func (rt RenderType) template() ([]byte, error) {
 }
 
 var funcMap = map[string]interface{}{
-	"p":    PFilter,
-	"para": ParaFilter,
-	"nobr": NoBrFilter,
+	"p":       PFilter,
+	"para":    ParaFilter,
+	"nobr":    NoBrFilter,
+	"in":      in,
+	"slice":   slice,
+	"camel":   camel,
+	"snake":   snake,
+	"split":   strings.Split,
+	"replace": strings.Replace,
 }
 
 // Processor is an interface that is satisfied by all built-in processors (text, html, and json).
